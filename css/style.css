@@ -1,0 +1,62 @@
+.container {
+
+}
+
+
+.navbar{
+  border: none;
+  height: 66px;
+
+}
+
+.navbar-brand {
+  position: relative;
+  display: block;
+  background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png?v=1.0.0')
+   0 5px no-repeat red;
+  text-indent: -9999px;
+  width: 230px;
+  height: 66px;
+  border: none;
+  top: -8px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+      background-color: red;
+}
+
+.nav{
+  font-family: 'Source Sans Pro',arial,sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+header{
+  margin: 0;
+}
+
+.menu{
+  background: black;
+  padding: 8px 0;
+}
+
+.nav > li > a {
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 14px;
+    padding: 18px 12.8px;
+}
+
+.navbar-nav > li > a:hover{
+  border-bottom: 2px solid #d42819;
+}
+
+.navbar-inverse .navbar-nav> .subscrabe > a {
+  color: yellow;
+}
+
+#sign > a:hover{
+  color: red;
+}
