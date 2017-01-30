@@ -60,3 +60,13 @@ header{
 #sign > a:hover{
   color: red;
 }
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .navbar-collapse {
+       display: none !important;
+   }
+
+   .collapse {
+     display: none !important;
+   }
+}
