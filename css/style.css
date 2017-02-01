@@ -1,103 +1,14 @@
 header{
-  margin: 0;
+    margin: 0;
+}
+
+.menu {
+    background: black;
+    padding: 8px 0;
 }
 
 .nav {
-  font-family: 'Source Sans Pro',arial,sans-serif;
-}
-
-.navbar{
-  border: none;
-  height: 66px;
-}
-
-.navbar-nav-left{
-    position: absolute;
-    left: 60px;  
-   }
-
-@media (max-width: 1100px){
-    .search{
-        position: absolute;
-        top: 10px;
-        left: 60px;
-    }
-    
-    .navbar-nav-left{
-    position: absolute;
-    left: 60px;
-    top: 60px;
-   }
-    
-}
-
-@media (min-width: 1100px){
-    .search{
-        position: absolute;
-        top: 8px;
-        left: 860px;
-    }
-    .navbar-nav-left{
-    position: absolute;
-    left: 60px; 
-    display: block;    
-   }
-}
-
-@media (min-width: 1300px){
-        .search{
-        position: absolute;
-        top: 8px;
-        left: 1060px;
-    }
-    .navbar-nav-left{
-    position: absolute;
-    left: 240px;
-    display: block;
-   }
-}
-
-.navbar-brand   {
-  background: url(https://g.europe.newsweek.com/www/img/redesign/sprite.png) -3px -49px no-repeat #ff0500;
-  text-indent: -9999px;
-  position: relative;
-  width: 55px;
-  height: 66px;
-  border: none;
-  top: -8px;
-}
-
-.navbar-brand:hover {
-      background-color: red !important;
-    }
-
-.navbar-header > button {
-  float: right;
-}
-
-.sing_in>a{
-  color: #fff !important;
-
-}
-
-.sing_in>a:hover{
-  color: red !important;
-  background-color: #ddd !important;
-}
-
-#sign  {
-  display: none;
-}
-
-.glyphicon-user{
-  padding: 3px 0;
-  display: block;
-}
-
-
-.menu{
-  background: black;
-  padding: 8px 0;
+    font-family: 'Source Sans Pro',arial,sans-serif;
 }
 
 .nav > li > a {
@@ -105,74 +16,178 @@ header{
     font-weight:bolder;
     font-size: 14px;
     padding: 18px 12.8px;
-    
 }
 
-.navbar-nav > li > a:hover{
-  border-bottom: 2px solid #d42819;
+.navbar {
+    border: none;
+    height: 66px;
 }
 
-.navbar-inverse .navbar-nav> .subscrabe > a {
-  color: yellow;
+.navbar-brand {
+    background: url(https://g.europe.newsweek.com/www/img/redesign/sprite.png) -3px -49px no-repeat #ff0500;
+    text-indent: -9999px;
+    position: relative;
+    width: 55px;
+    height: 66px;
+    border: none;
+    top: -8px;
 }
 
+.navbar-brand:hover {
+    background-color: red !important;
+}
+
+.navbar-header > button {
+    float: right;
+}
+
+.sing_in > a {
+    color: #fff !important;
+}
+
+.sing_in > a:hover {
+    color: red !important;
+    background-color: #ddd !important;
+}
+
+#sign  {
+    display: none;
+}
+
+.glyphicon-user{
+    padding: 3px 0;
+    display: block;
+}
+
+.subscrabe > a {
+    color: yellow !important;
+}
 
 .navbar-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
+    position: absolute;
+    top: 7px;
+    right: 16px;
 }
 
+.navbar-nav-left{
+    position: absolute;
+    left: 60px;  
+}
+
+.navbar-nav-left > li{
+    float: left;
+    border-bottom: 3px solid #000;    
+}
+    
+.navbar-nav > li:hover{
+    border-bottom: 3px solid #d42819;
+}
+
+/* ***************************************************
+                ADOOPTATION SCREEN
+***************************************************
+*/
+
+@media (max-width: 768px) {
+    .search {
+        left: 75px !important;
+        top: -1px !important;
+    }
+    
+    .navbar-right {
+        right: 90px !important;
+        top: -1px !important;
+    }
+}
+
+@media (max-width: 1100px){
+    
+    .search{
+        position: absolute;
+        top: 7px;
+        left: 60px;
+    }
+
+    .navbar-nav-left{
+        display: none;
+        position: absolute;
+        top: 60px;
+        margin: 0 20px;
+        background: #000;    
+   }
+    
+
+}
+
+@media (min-width: 1100px){
+    
+    .search{
+        position: absolute;
+        top: 7px;
+        left: 860px;
+    }
+    .navbar-nav-left{
+        position: absolute;
+        left: 60px; 
+        top: 7px;
+        display: block;    
+   }
+}
 
 
 
 @media (max-width: 1100px)  {
-  .navbar-left {
-       display: none !important;
-   }
+    .navbar-left {
+        display: none !important;
+    }
 
-   .navbar-right {
-     position: absolute;;
-     top: 8px;
-     right: 80px;
-   }
+    .navbar-right {
+         position: absolute;;
+         top: 7px;
+         right: 80px;
+    }
 
-   .navbar-right > ul > li {
-       float: left;
-   }
+    .navbar-right > ul > li {
+        float: left;
+    }
 
     .navbar-toggle {
-    position: absolute;
-    display: block;
-    right: 0px;
-    top: 10px;
-  }
-    
-}
-
-
-
-
-@media (max-width: 1100px) {
+        position: absolute;
+        display: block;
+        right: 0px;
+        top: 10px;
+    }
 
     .navbar-nav-right{
-        
         position: relative;
         top: 57px;
     }
 }
-    
+
 
 @media (min-width: 1300px){
-  .navbar-brand {
-    background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png?v=1.0.0')
-     0 5px no-repeat red;
-    width: 230px;
-  }
-  #sign  {
-    display: block;
-  }
-  .glyphicon-user{
-    display: none;
-  }
+    .search{
+        position: absolute;
+        top: 8px;
+        left: 1060px;
+    }
+    .navbar-nav-left{
+        position: absolute;
+        left: 240px;
+        display: block;
+   }
+}
+
+@media (min-width: 1300px){
+    .navbar-brand {
+        background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png?v=1.0.0')
+         0 5px no-repeat red;
+        width: 230px;
+    }
+    #sign  {
+        display: block;
+    }
+    .glyphicon-user{
+        display: none;
+    }
 }
