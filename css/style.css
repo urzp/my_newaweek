@@ -12,7 +12,7 @@
 .first_section{
 
     height: 1000px;
-    background: #bbb;
+    
     left: 0;
     margin: 0 auto;
     margin-top: 80px;
@@ -108,4 +108,29 @@
     font-weight: 700;
     text-decoration-style: none;
     color: #0e0e0e;
+}
+
+.sitebar {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-family: 'PT Serif',Georgia,serif;
+    margin-left: 25px;
+}
+
+.sitedar_list > li {
+    font-family: 'PT Serif',Georgia,serif;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+
+}
+
+.sitedar_list > li > a {
+    font-family: 'Source Sans Pro',lucida sans,arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.42857143;
+    color: #333;
 }
